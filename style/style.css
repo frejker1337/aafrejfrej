@@ -8,13 +8,14 @@ body {
 background-color: aqua;
 margin: 0;
 padding: 0;
+background-image: url("/img/125185.jpg");
 
 }
 
 .navigation  {
-background-color: yellow;
+background-color: #;
 float: right;
-text-transfrom: uppercase;
+text-transform: uppercase;
 }
 .navigation ul {
 margin: 0;

@@ -1,6 +1,7 @@
 html {
 margin: 0;
 padding: 0;
+color: whitesmoke;
 }
 body {
 
@@ -33,8 +34,8 @@ align-items: center;
 }
 
 .navigation ul li a {
-text-decoration: none;
-color: red;
+text-decoration: whitesmoke;
+color: whitesmoke;
 padding: 0;
 margin: 0;
 font-size: 18px;

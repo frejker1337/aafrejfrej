@@ -50,3 +50,45 @@ height: 50px;
     color: aquamarine
 
 }
+
+.contact-form{
+margin: 0 auto;
+width: 400px;
+padding: 5px;
+border: 1px solid white;
+border-radius: 5px;
+
+}
+
+
+.input-labels{
+    display: inline-block;
+    width:90px;
+    text-align: right;
+
+
+}
+
+input, textarea {
+    font: 14px 'Segoe UI';
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+.input-container{
+
+margin-top: 20px;
+
+}
+textarea{
+vertical-align: top;
+height: 150px;
+}
+.input-button{
+    padding-left: 20px;
+    margin-left:10px;
+    float:right;
+    
+}

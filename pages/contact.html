@@ -10,10 +10,10 @@
 </head>
 
 <body>
-   
+
     <nav class="navigation">
         <ul>
-            
+
             <li> <a href="../index.html">Start</a></li>
             <li><a href="bio.html">Bio</a></li>
             <li><a href="#">Contact</a> </li>
@@ -21,21 +21,25 @@
         </ul>
     </nav>
     <main>
-        <form action="">
-                <section>
-                    <label for="name">Namn:</label>
-                    <input type="text" id="name" name ="userName"> 
-                </section>
-            <section>
-                <label for="enauk">Email:</label>
+        <form class="contact.form" action="" method>
+            <section class="input-container">
+                <label class="input-label" for="name">Namn:</label>
+                <input type="text" id="name" name="userName">
+            </section>
+            <section class="input-container">
+                <label class="input-label" for="enauk">Email:</label>
                 <input type="email" id="email" name="userEmail">
-                </section>
-                <section>
-                    <label for="message">Meddelande:</label>
-                    <textarea name="userMessage" id="message" cols="30" rows="10">
-                    
+            </section>
+            <section class="input-container">
+                <label class="input-label" for="message">Meddelande:</label>
+                <textarea name="userMessage" id="message" cols="30" rows="10">
 
                 </section>
+                <section class="input-container">
+                    <button class="input-button">Skickas</button>
+
+                </section>
+
 
         </form>
     </main>
